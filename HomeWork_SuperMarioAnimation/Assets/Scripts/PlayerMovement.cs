@@ -66,5 +66,9 @@ public class PlayerMovement : MonoBehaviour {
 			animator.SetBool("IsJumping", false);
 			velocity.y = 0;
 		}
+		else if (collision.gameObject.CompareTag("QuestionBox"))
+		{
+			velocity.y = -1;
+		}
 	}
 }
