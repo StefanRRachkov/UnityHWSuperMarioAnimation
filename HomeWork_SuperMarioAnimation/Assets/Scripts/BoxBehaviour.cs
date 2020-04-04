@@ -9,19 +9,14 @@ public class BoxBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Player") && !contains.GetComponent<Animator>().GetBool("onSpawn"))
+        if (contains != null)
         {
-            Debug.Log("Player Hit the box and spawned its contains.");
+            if (other.gameObject.CompareTag("Player") && !contains.GetComponent<Animator>().GetBool("onSpawn"))
+            {
+                Debug.Log("Player Hit the box and spawned its contains.");
             
-            // Spawn:
-            contains.GetComponent<Animator>().SetBool("onSpawn", true);
-        }
-    }
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Mushroom"))
-        {
-            Debug.Log("Mushroom Exit!");
+                contains.GetComponent<Animator>().SetBool("onSpawn", true);
+            }
         }
     }
 }

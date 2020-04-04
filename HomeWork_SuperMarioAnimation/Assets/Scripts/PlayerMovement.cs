@@ -26,9 +26,13 @@ public class PlayerMovement : MonoBehaviour {
 	private Animator animator;
 	private new Rigidbody2D rigidbody;
 
+	private bool bBig;
+
 	void Start() {
 		animator = GetComponent<Animator>();
 		rigidbody = GetComponent<Rigidbody2D>();
+
+		bBig = false;
 	}
 
 	void Update() {
@@ -69,6 +73,12 @@ public class PlayerMovement : MonoBehaviour {
 		else if (collision.gameObject.CompareTag("QuestionBox"))
 		{
 			velocity.y = -1;
+		}
+		else if (collision.gameObject.CompareTag("Mushroom"))
+		{
+			Debug.Log("Go Big or go home!");
+			bBig = true;
+			Destroy(collision.gameObject);
 		}
 	}
 }
