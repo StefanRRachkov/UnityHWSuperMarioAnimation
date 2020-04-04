@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour {
 	private Animator animator;
 	private new Rigidbody2D rigidbody;
 
+	// We can use this param to change back to small mario
 	private bool bBig;
 
 	void Start() {
@@ -77,8 +78,11 @@ public class PlayerMovement : MonoBehaviour {
 		else if (collision.gameObject.CompareTag("Mushroom"))
 		{
 			Debug.Log("Go Big or go home!");
-			bBig = true;
+			//animator.SetBool("IsBig", true);
 			Destroy(collision.gameObject);
+			
+			//I will leave this for future purposes:
+			bBig = true;
 		}
 	}
 }
