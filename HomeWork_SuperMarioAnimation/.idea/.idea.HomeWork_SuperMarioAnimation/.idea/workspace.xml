@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45de53f-8c06-4e80-ac78-8b9fcf3e1892" name="Default Changelist" comment="" />
@@ -12,14 +12,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoxContainsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionBoxBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoxBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/MushroomMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionBoxBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoxBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BoxContainsBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +73,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585921543310</updated>
-      <workItem from="1585921546745" duration="2822000" />
+      <workItem from="1585921546745" duration="4088000" />
+      <workItem from="1585929826666" duration="11426000" />
+      <workItem from="1585942722963" duration="2831000" />
     </task>
     <servers />
   </component>
@@ -83,7 +89,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
