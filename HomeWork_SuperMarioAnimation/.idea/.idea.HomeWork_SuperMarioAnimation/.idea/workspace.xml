@@ -21,8 +21,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MushroomMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuestionBoxBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoxContainsBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoxBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -75,7 +75,8 @@
       <workItem from="1585921546745" duration="4088000" />
       <workItem from="1585929826666" duration="11426000" />
       <workItem from="1585942722963" duration="3529000" />
-      <workItem from="1586007742672" duration="4205000" />
+      <workItem from="1586007742672" duration="5006000" />
+      <workItem from="1586466149093" duration="1410000" />
     </task>
     <servers />
   </component>

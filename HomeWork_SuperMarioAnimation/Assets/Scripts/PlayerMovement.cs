@@ -78,7 +78,11 @@ public class PlayerMovement : MonoBehaviour {
 		else if (collision.gameObject.CompareTag("Mushroom"))
 		{
 			Debug.Log("Go Big or go home!");
-			//animator.SetBool("IsBig", true);
+			animator.SetTrigger("Transition");
+			animator.SetBool("IsBig", true);
+			
+			GetComponent<BoxCollider2D>().size = new Vector2(0.16f, 0.28f);
+			
 			Destroy(collision.gameObject);
 			
 			//I will leave this for future purposes:
